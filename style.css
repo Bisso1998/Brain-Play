@@ -36,12 +36,9 @@ body {
 	font-size: 14px;
 	padding-left: 40px;
 }
-
-
 .form-control {
     padding-left: 30px;
 }
-
 .form-control + .glyphicon {
     position: absolute;
     left: 0;
@@ -72,4 +69,28 @@ img {
 	background-color: #8b95e8;
 	color: white;
 	cursor: pointer;
+}
+.analytics {
+	background-color: #fff9f9;
+	height: 160px;
+	width: 240px;
+	border-left: 2px solid #e1efe9;
+}
+.analytics-left {
+	background-color: #fff9f9;
+	height: 160px;
+	width: 240px;
+	margin-left: 28px;
+}
+.analytics-right {
+	background-color: #fff9f9;
+	height: 160px;
+	width: 240px;
+	margin-right: 29px;
+	border-left: 2px solid #e1efe9;
+}
+.glyphicon-refresh, .glyphicon-bookmark, .glyphicon-tags, .glyphicon-calendar{
+	padding-top: 9px;
+	font-size: 22px;
+	color: #e0d5d5;
 }
