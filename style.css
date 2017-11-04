@@ -1,0 +1,58 @@
+.side-nav {
+	height:100vh;
+	background-color: #1c1c2b;
+}
+.nav-heading {
+	color: white;
+	padding-top: 5px;
+}
+body {
+	overflow-x: hidden;
+}
+.nav-sub-heading {
+	/*padding: 10px;*/
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	cursor: hand;
+	color: white;
+	width: 206px;
+}
+.nav-sub-heading:hover {
+	background-color: #2a323f;
+	border-left: 5px solid #f7f32a;
+	cursor: pointer;
+}
+.container {
+	padding-top: 20px;
+}
+.btn-default {
+	
+	font-size: 10px;
+}
+.location-select{
+	padding-top: 5px;
+	font-size: 14px;
+	padding-left: 40px;
+}
+
+
+.form-control {
+    padding-left: 30px;
+}
+
+.form-control + .glyphicon {
+    position: absolute;
+    left: 0;
+    padding: 8px 27px;
+}
+.glyphicon{
+	font-size: 13px;
+}
+
+img {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
