@@ -7,11 +7,20 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+
+
+
 </head>
 <body>
 	<div class="row">
 		<div class="col-xs-2 side-nav">
-			<h5 class="text text-center nav-heading"  >
+			<h5 class="text text-center nav-heading" >
 				Brain <b>Play</b>
 			</h4>
 			<br>
@@ -102,10 +111,45 @@
 					<h4 class="text text-center" style="color: #a39c9c">Terminated</h4>
 				</div>
 			</div>
+			<div class="row" style="margin-top: 20px">
+				<div class="col-xs-6">
+					<h5 class="text"><b>Feedbacks</b></h5><table class="table table-striped">
+    				<thead>
+      				<tr>
+        				<th>Trainee Name</th>
+        				<th>Contact Number</th>
+        				<th>Rating</th>
+      				</tr>
+    				</thead>
+   				 	<tbody>
+      				<tr>
+        				<td>Harshit Agarwal</td>
+        				<td>+91-90xxxxxxxx</td>
+        				<td>4.5</td>
+      				</tr>
+      				<tr>
+        				<td>John Doe</td>
+        				<td>+91-90xxxxxxxx</td>
+       				 	<td>5.0</td>
+      				</tr>
+      				<tr>
+        				<td>Rachit Garg</td>
+        				<td>+91-90xxxxxxxx</td>
+        				<td>3.4</td>
+      				</tr>
+    				</tbody>
+  				</table>
+				</div>
+				<div class="col-xs-6">
+					<b>User Rating Curve</b>
+					<div id="myChart">
+					</div>
+				</div>
 			</div>
-
+			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="app.js"></script>
 
 </body>
 </html>

@@ -8,6 +8,7 @@
 }
 body {
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 .nav-sub-heading {
 	/*padding: 10px;*/
@@ -93,4 +94,15 @@ img {
 	padding-top: 9px;
 	font-size: 22px;
 	color: #e0d5d5;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #2a323f;
+}
+
+table {
+	box-shadow: 0.5px 0.5px 2px 0.2px #888888;
+}
+#myChart {
+height: 230px;
+width: 450px;
 }
