@@ -31,6 +31,7 @@ body {
 .btn-default {
 	
 	font-size: 10px;
+	border-radius: 15px;
 }
 .location-select{
 	padding-top: 5px;
@@ -95,14 +96,19 @@ img {
 	font-size: 22px;
 	color: #e0d5d5;
 }
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: #2a323f;
-}
 
 table {
 	box-shadow: 0.5px 0.5px 2px 0.2px #888888;
 }
 #myChart {
-height: 230px;
+height: 270px;
 width: 450px;
+}
+.input-sm {
+	border-radius: 15px;
+}
+tr:hover {
+	background-color: #8b95e8;
+	color: white;
+	cursor: pointer;
 }
